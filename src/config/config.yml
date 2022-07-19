@@ -1,0 +1,20 @@
+DEV:
+  SERVER:
+    PORT: 8000
+    HOST: "0.0.0.0"
+  DATABASE:
+    POSTGRES:
+      DATABASE: "postgres"
+      USER: "postgres"
+      PASSWORD: "minecraft24078"
+      HOST: "localhost"
+      PORT: "5432"
+
+
+
+PRODUCTION:
+  SERVER:
+    PORT:
+    HOST: ""
+
+DEBUG: true
